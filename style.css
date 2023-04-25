@@ -1,0 +1,64 @@
+.nav
+ {
+  text-align: center;
+  }
+.me-4{
+  margin-right: 40px;
+}
+header {
+  padding-top: 20px;
+  min-height: 80px;
+  background-color: hsl(250, 30%, 96%); /* gray */
+}
+
+main {
+  min-height: 100vh;
+  color: rgb(10, 1, 1);
+  background-color: #afb4b1; /* gray */
+}
+
+footer {
+  min-height: 100px;
+  color: rgb(10, 1, 1);
+  background-color: #e6ebe8; /* gray */
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid .row {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.megamenu {
+  position: static;
+}
+.megamenu .dropdown-menu {
+  border: none;
+  width: 100%;
+}
+.button {
+  border: none;
+  color: rgb(238, 232, 232);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #181a19;} /* gray *
